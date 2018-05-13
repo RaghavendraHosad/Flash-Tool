@@ -1,0 +1,11 @@
+﻿<Window x:Class="FwFlashTool.ComPort"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ComPort" Height="132" Width="290" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Label HorizontalAlignment="Left" Margin="12,0,0,14" Content="Com Port" Name="label1" Width="66" Height="28" VerticalAlignment="Bottom" />
+        <TextBox Margin="84,0,95,14" Name="txtCommPort" Height="25" VerticalAlignment="Bottom" />
+        <Label Height="29" Margin="18,14,0,0" Content="Enter device port# (EX: COM#)" Name="label2" VerticalAlignment="Top"/>
+        <Button Height="25" HorizontalAlignment="Right" Margin="0,0,30,14" Content="OK" Name="btnCommOk" Click="btnCommOk_Click"  VerticalAlignment="Bottom" Width="34"/>
+    </Grid>
+</Window>
